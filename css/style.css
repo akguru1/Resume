@@ -1,0 +1,61 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Choose a modern, readable font */
+    background-color: #333; /* Dark background for the page */
+    color: #f4f4f4; /* Light color for text */
+    line-height: 1.6; /* Spacing for readability */
+    margin: 20px; /* Spacing around the content */
+}
+
+.skills div {
+    margin-bottom: 20px; /* Space between skill sections */
+    padding: 20px; /* Padding inside the divs */
+    background-color: #444; /* Dark grey background for each div */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.skills h3 {
+    color: #ddd; /* Slightly lighter grey for headings */
+    margin-bottom: 15px; /* Space below headings */
+}
+
+.skills p, .skills li {
+    margin-bottom: 10px; /* Space between paragraphs and list items */
+}
+
+.skills ul {
+    list-style-type: none; /* No bullets for lists */
+    padding: 0; /* Remove default padding */
+}
+
+.skills a {
+    color: #1e90ff; /* Bright color for links to stand out */
+    text-decoration: none; /* No underline */
+}
+
+.skills a:hover {
+    text-decoration: underline; /* Underline on hover for interactivity */
+}
+.contact-info {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; /* Center align the text for a cleaner look */
+}
+
+.contact-info h2 {
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 15px; /* Add some space between paragraphs */
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #0077b5; /* Example color for links, this one is similar to LinkedIn's blue */
+    margin: 0 10px; /* Space out the social links */
+}
+
+.social-links a:hover {
+    text-decoration: underline; /* Underline links on hover for better interaction */
+}
